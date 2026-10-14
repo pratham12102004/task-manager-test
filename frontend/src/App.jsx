@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+   
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -63,7 +64,7 @@ const handleDelete = async (id) => {
 };
   return (
     <div className="container">
-      <h1>Task Manager</h1>
+      <h1>My new Task Manager</h1>
 
       <div className="input-section">
         <input
