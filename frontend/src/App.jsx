@@ -64,7 +64,7 @@ const handleDelete = async (id) => {
 };
   return (
     <div className="container">
-      <h1>My new Task Manager</h1>
+      <h1>My new brand Task Manager</h1>
 
       <div className="input-section">
         <input
